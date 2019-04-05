@@ -1,5 +1,3 @@
-package introduction
-
 fun main() {
 
     printMessage("This is a message")
@@ -8,18 +6,18 @@ fun main() {
     printMessageWithPrefix("Message")
 
     //calling with custom second parameter
-    printMessageWithPrefix("Message","Log")
+    printMessageWithPrefix("Message", "Log")
 
 
     //Calls the same function using named arguments and changing the order of the arguments
     printMessageWithPrefix(prefix = "Log", message = "Hello")
 
     //Prints the result of a function call
-    println(sum(10,15))
+    println(sum(10, 15))
 
 
     // calling the inferred return typed function
-    print(multiply(4,3))
+    print(multiply(4, 3))
 
 }
 
